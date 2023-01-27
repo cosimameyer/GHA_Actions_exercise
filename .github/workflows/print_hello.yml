@@ -23,3 +23,12 @@ jobs:
           r-version: '3.5.3' # The R version to download (if necessary) and use.
       - run: Rscript -e 'print("hello")'
 
+
+  print-hello-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with: 
+          python-version: '3.10' 
+      - run: python my_script.py
