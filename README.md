@@ -1,1 +1,1 @@
-# GHA_Actions_exercise
+# Demo GitHub Actions
